@@ -1,4 +1,4 @@
-// Copyright - MOISES-CANARIA 2023 
+
 
 const resultado = document.querySelector("#resultado");
 const formulario = document.querySelector("#formulario");
