@@ -74,7 +74,7 @@ function mostrarVengadores(vengadores) {
             <summary class="p-1 bg-sky-600 rounded font-bold text-center">Descripcion</summary>
             ${description === "" ? "Sin descripcion" : description}
             </details>
-                <a class=" sm:text-sm block w-full bg-red-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="../teller/Marvel-api/html/series.html?series=${id}" target="_blank" rel="noopener noreferrer">Ver series</a>
+                <a class=" sm:text-sm block w-full bg-red-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="Marvel-api/Marvel-api/html/series.html?series=${id}" target="_blank" rel="noopener noreferrer">Ver series</a>
                 <a class=" sm:text-sm block w-full bg-blue-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="teller/Marvel-api/html/comics.html?comics=${id}" target="_blank" rel="noopener noreferrer">Ver Comics</a>
                 <a class=" sm:text-sm block w-full bg-black hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="teller/Marvel-api/html/events.html?events=${id}" target="_blank" rel="noopener noreferrer">Ver Eventos</a>
                 <a class=" sm:text-sm block w-full bg-yellow-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="teller/html/stories.html?stories=${id}" target="_blank" rel="noopener noreferrer">Ver Stories</a>
