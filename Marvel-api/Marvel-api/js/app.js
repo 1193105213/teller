@@ -75,9 +75,9 @@ function mostrarVengadores(vengadores) {
             ${description === "" ? "Sin descripcion" : description}
             </details>
                 <a class=" sm:text-sm block w-full bg-red-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/teller/Marvel-api/Marvel-api/html/series.html?series=${id}" target="_blank" rel="noopener noreferrer">Ver series</a>
-                <a class=" sm:text-sm block w-full bg-blue-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/Marvel-api/Marvel-api/html/comics.html?comics=${id}" target="_blank" rel="noopener noreferrer">Ver Comics</a>
-                <a class=" sm:text-sm block w-full bg-black hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/Marvel-api/Marvel-api/html/events.html?events=${id}" target="_blank" rel="noopener noreferrer">Ver Eventos</a>
-                <a class=" sm:text-sm block w-full bg-yellow-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/Marvel-api/html/stories.html?stories=${id}" target="_blank" rel="noopener noreferrer">Ver Stories</a>
+                <a class=" sm:text-sm block w-full bg-blue-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/teller/Marvel-api/Marvel-api/html/comics.html?comics=${id}" target="_blank" rel="noopener noreferrer">Ver Comics</a>
+                <a class=" sm:text-sm block w-full bg-black hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/teller/Marvel-api/Marvel-api/html/events.html?events=${id}" target="_blank" rel="noopener noreferrer">Ver Eventos</a>
+                <a class=" sm:text-sm block w-full bg-yellow-800 hover:bg-lime-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="/teller/Marvel-api/Marvel-api/html/stories.html?stories=${id}" target="_blank" rel="noopener noreferrer">Ver Stories</a>
             </div>
             </div>
             </div>
@@ -89,7 +89,7 @@ function mostrarVengadores(vengadores) {
         <div class="fondo bg-black">
         <p class="font-bold text-center bg-black text-white"> ${title} </p>
         <p class="font-bold text-center bg-black text-white"> ${id} </p>
-        <img class="w-full h-48 bg-gray-500" src="${thumbnail === null ? '' : thumbnail.path }${thumbnail === null ? '../teller/Marvel-api/recursos/imagen/no.png': '.' + thumbnail.extension }" >
+        <img class="w-full h-48 bg-gray-500" src="${thumbnail === null ? '' : thumbnail.path }${thumbnail === null ? '/teller/Marvel-api/Marvel-api/recursos/imagen/no.png': '.' + thumbnail.extension }" >
         <div class="p-4 bg-gray-400 break-words">
         <details>
         <a class=" sm:text-sm block w-full bg-sky-800 hover:bg-blue-500 text-white uppercase font-bold text-center rounded mt-5 p-1"  href="${urls ===  undefined || urls === null ? '' : urls[0].url}" target="_blank" rel="noopener noreferrer">Abrir url</a>
